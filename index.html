@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<link
+			rel="icon"
+			type="image/svg+xml"
+			href="/assets/icons/typescript.svg"
+		/>
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<link rel="stylesheet" href="src/styles/global.css" />
+		<title>Blog preview Challenge</title>
+	</head>
+
+	<body class="font-figtree">
+		<!-- Main -->
+		<main
+			class="bg-primaryYellow grid min-h-[100dvh] place-content-center px-[min(10%,1rem)] py-12 md:py-0"
+		>
+			<!-- Card -->
+			<a
+				class="cursor-pointer font-semibold text-primaryBlack text-base"
+				href="#"
+			>
+				<article
+					class="bg-white cursor-pointer max-w-[21.5rem] outline outline-2 outline-primaryBlack py-5 px-[min(10%,1.25rem)] rounded-2xl shadow-card md:max-w-[22.5rem] md:p-5 md:shadow-cardDk mHover:hover:shadow-cardDown group transition-shadow duration-200"
+				>
+					<header>
+						<img
+							class="rounded-2xl"
+							src="/assets/icons/illustration-article.svg"
+							alt="illustration article"
+						/>
+						<div class="mt-6">
+							<a
+								class="bg-primaryYellow inline-block font-extrabold mb-3 py-2 px-4 rounded-md text-[.8rem]"
+								href="#"
+								>Learning</a
+							>
+							<p>
+								Published
+								<time datetime="2023-11-21">21 Dec 2023</time>
+							</p>
+						</div>
+					</header>
+					<section class="mt-4 mb-6">
+						<h2
+							class="font-extrabold mb-4 text-xl mHover:group-hover:text-primaryYellow group-active:text-primaryYellow transition-colors duration-200"
+						>
+							HTML & CSS foundation
+						</h2>
+						<p class="text-primaryGrey text-[.97rem]">
+							These languages are the backbone of every website,
+							defining structure, content, and presentation.
+						</p>
+					</section>
+					<footer class="flex gap-4 items-center pb-2">
+						<img
+							class="w-10 h-10"
+							src="/assets/images/image-avatar.webp"
+							alt="avatar of user "
+						/>
+						<h3 class="font-extrabold text-[.8rem]">Greg Hooper</h3>
+					</footer>
+				</article>
+			</a>
+		</main>
+	</body>
+</html>
